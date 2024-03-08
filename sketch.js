@@ -31,8 +31,6 @@ function setup() {
 function draw() {
   // Set the background color to black
   background(0);
-  // Set the camera position and angle
-  camera(200, -400, 400, 0, 0, 0, 0, 1, 0);
   // Use the orbitControl() function to enable mouse movement
   orbitControl();
   // Set the ambient light and the directional light
